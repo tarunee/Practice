@@ -1,6 +1,8 @@
 //backtracking here somewhat
 int Solution::Mod(int A, int B, int C) {
     long long int ans;
+    //ABC can be int but when a^B the value can exceed the range of int
+    //thus xy ans have to long long int to ensure this.
     
     if(A==0)//if given number = 0
     {
