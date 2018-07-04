@@ -2,7 +2,7 @@ class Solution:
     # @param A : list of integers
     # @return a list of list of integers
     def subsets(self, A):
-        A=sorted(A)
+        A.sort() #inplace sorting
         l=[]
         n=len(A)
         if(n==0):
