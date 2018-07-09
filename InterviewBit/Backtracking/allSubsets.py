@@ -33,4 +33,4 @@ class Solution:
         return fin
         
         
-        
+#given list has distinct elements
